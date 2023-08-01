@@ -1,0 +1,24 @@
+.h-pc {
+    display: none;
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+
+.h-sp {
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+.break-pc {
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+
+.break-sp {
+    @media (max-width: 968px) {
+        display: block;
+    }
+}
